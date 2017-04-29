@@ -16,6 +16,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 html,body {
 	margin:0;
 	padding:0;
+	/*background-color: #efefef;*/
 }
 table {
 	border-collapse:collapse;
@@ -43,6 +44,7 @@ caption,th {
 h1,h2,h3,h4,h5,h6 {
 	font-size:100%;
 	font-weight:normal;
+	font-family:微软雅黑;
 }
 q:before,q:after {
 	content:'';
@@ -52,10 +54,13 @@ abbr,acronym { border:0;
 /* General Demo Style */
 body{
 	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	background: #000;
+	background: #237a84;
+
+
 	font-weight: 400;
-	font-size: 15px;
-	color: #aa3e03;
+	font-size: 30px;
+	/*color: #aa3e03;*/
+	color: #fff;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
@@ -80,6 +85,7 @@ a{
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     text-align: left;
+
 }
 .container > header h1{
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -121,6 +127,7 @@ a{
 	color: #ddd;
 	display: block;
 	float: left;
+	margin-right: 10px;
 }
 .codrops-top a:hover{
 	color: #fff;
@@ -142,7 +149,7 @@ p.codrops-demos a.current-demo,
 p.codrops-demos a.current-demo:hover{
     display: inline-block;
 	border: 1px solid #6d0019;
-	padding: 4px 10px 3px;
+	padding: 4px 4px 1px;
 	font-size: 13px;
 	line-height: 18px;
 	margin: 2px 3px;
@@ -193,3 +200,21 @@ p.codrops-demos a.current-demo:hover{
 		left: auto;
 	}
 }
+.content{
+	margin: 0 auto;
+}
+.wx1{
+	display: block;
+	font-size: 15px;
+	font-family:"微软雅黑 Light";
+	margin-bottom:11px;
+}
+.wx2{
+	display: block;
+	font-size: 15px;
+	font-family:"微软雅黑 Light";
+	margin-top:9px;
+}
+/*.qq{*/
+	/*padding-top: 55px;*/
+/*}*/
